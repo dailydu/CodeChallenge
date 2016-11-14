@@ -83,7 +83,7 @@ int main()
 		 << "If you get a strike please enter an 'X' for your score and if you get" << endl
 		 << "a spare then please enter a '/'. If you are unable to get a spare before" << endl
 		 << "two turns in a frame then enter in the exact number of pins you knocked down." << endl
-		 << "Good Luck! " << endl << endl; // importent to not have too much text on a single line
+		 << "Good Luck! " << endl << endl; // important to not have too much text on a single line
 		 
 	/********************************
 	user prompt for number of players
@@ -158,7 +158,7 @@ int main()
 					frames[j][i][1] = inputScore;
 				}
 			}
-			//this is not the last frame
+			//this is the last frame
 			else
 			{
 				// make sure to say it is last turn
